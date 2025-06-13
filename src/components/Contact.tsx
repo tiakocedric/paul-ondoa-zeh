@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Send, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -74,6 +74,14 @@ const Contact = () => {
                     className="p-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors duration-200"
                   >
                     <Github size={20} />
+                  </a>
+                  <a
+                    href="https://wa.me/237695249787"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200"
+                  >
+                    <MessageCircle size={20} />
                   </a>
                 </div>
               </div>

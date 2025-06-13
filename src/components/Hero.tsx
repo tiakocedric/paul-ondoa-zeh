@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Linkedin, Github } from 'lucide-react';
+import { MapPin, Phone, Mail, Linkedin, Github, MessageCircle } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -53,6 +53,14 @@ const Hero = () => {
               className="p-3 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               <Github size={24} />
+            </a>
+            <a
+              href="https://wa.me/237695249787"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              <MessageCircle size={24} />
             </a>
           </div>
         </div>
